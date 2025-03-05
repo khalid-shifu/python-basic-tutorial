@@ -3,6 +3,8 @@ from car import Car
 from print import Print
 from car_data import CarData
 from person_data import PersonData
+from movie_data import MovieData
+from anime_data import AnimeData
 
 def main():
     p1 = Person("john", 25, "Korea")
@@ -32,6 +34,13 @@ def main():
 
     person2 = PersonData("jane")
     print(person2)
+
+
+    movie1 = MovieData("M01220", "The Dark Knight", 2008, "Action", 9.0)
+    print(movie1)
+
+    anime1 = AnimeData("A01001", "Naruto", "Fiction", 8.5, 220)
+    print(anime1)
 
 # client code
 if __name__ == "__main__":

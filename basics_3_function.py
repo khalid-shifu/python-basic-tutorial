@@ -56,3 +56,27 @@ def print_Keys(**kwargs):
 		print(f"{key}")
 
 print_Keys(name="doe", age=51, country="UK")
+
+# practice day 2
+def devide(i, j):
+     return i / j
+
+print(f"division of 4 / 2 is {devide(j = 4, i = 2)}")
+
+
+def print_bill(total_bill = 0):
+    print(f"total bill is {total_bill}")
+
+
+print_bill(100)
+print_bill()
+
+
+def print_car_info(**kwargs):
+     for key, value in kwargs.items():
+         print(f"{key} : {value}")
+
+print_car_info(brand = "toyota", model = "corolla", year = 2019)
+
+
+

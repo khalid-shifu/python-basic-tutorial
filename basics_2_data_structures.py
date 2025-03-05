@@ -62,8 +62,36 @@ print(empty_set)
 # output: {1, 2}
 
 
+# dectionary practice day 2
+
+car_dict = {
+    "Color": "Red",
+    "Brand": "Feerari",
+    "Model": "F8",
+    "Year": 2021,
+    "Price": 300000
+}
 
 
+for key, value in car_dict.items():
+    print(f"{key} : {value}")
+
+
+
+for item in car_dict.items():
+    print(item)
+
+
+key_set = set(car_dict.keys())
+print(f"key_set: {key_set}") # key_set: {'Color', 'Brand', 'Year', 'Price', 'Model'}
+
+keys = car_dict.keys()
+print(f"keys: {keys}") # keys: dict_keys(['Color', 'Brand', 'Model', 'Year', 'Price']), this is a view object
+
+
+# .keys(), .values(), .items() returns view object
+# view object is a set-like object that displays keys, values or key-value pairs
+# view object is not a list, tuple or set
 
 
 
