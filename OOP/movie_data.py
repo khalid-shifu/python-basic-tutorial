@@ -36,7 +36,7 @@ class MovieData:
         return self.__genre
     
     @genre.setter
-    def fenre(self, genre):
+    def genre(self, genre):
         self.__genre = genre
     
     @property
